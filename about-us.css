@@ -37,6 +37,7 @@ nav img {
 .container {
   background-image: url("https://cdn.shopify.com/s/files/1/0252/7225/4511/files/Canva_-_Silhouette_Of_People_Raising_Hands_During_Golden_Hour_1280x@2x.jpg?v=1574164677");
   background-position: center;
+  background-size: cover;
   color: white;
   display: flex;
   align-items: center;

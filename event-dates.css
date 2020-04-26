@@ -38,7 +38,7 @@ nav img {
 /* Container styles */
 .container {
   background-image: url("https://i1.wp.com/hub.elisa.fi/wp-content/uploads/2019/11/Rockfest_WKND_2880x1620.jpg?fit=2880%2C1620&ssl=1");
-  background-position: center;
+  background-size: cover;
   color: white;
   display: flex;
   align-items: center;
