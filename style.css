@@ -1,0 +1,647 @@
+/* General styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.4;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  overflow: visible;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: white;
+  scroll-behavior: smooth;
+}
+
+button {
+  border: none;
+}
+
+/*************************************************************************/
+/* Navbar styles */
+nav {
+  height: 80px;
+  background: #2e2d30;
+  font-size: 20px;
+  color: red;
+}
+
+.navbar {
+  margin: 0 50px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.summer-splash {
+  display: flex;
+  align-items: center;
+}
+.navbar .summer-splash h1 {
+  font-size: 25px;
+  color: crimson;
+}
+.navbar .summer-splash .logo {
+  width: 140px;
+}
+
+.navbar .links {
+  width: 500px;
+  display: flex;
+  justify-content: inherit;
+  font-size: 17px;
+}
+.navbar .links i {
+  margin-right: 5px;
+}
+.navbar .home {
+  color: cornflowerblue;
+  font-size: 17px;
+}
+
+.navbar .language-switcher {
+  position: relative;
+  padding-bottom: 3px;
+  text-align: left;
+}
+.navbar .dropbtn {
+  background: transparent;
+  color: red;
+  font-size: 17px;
+}
+.navbar #content {
+  width: 100px;
+  opacity: 0;
+  position: absolute;
+  top: 3.2rem;
+  padding: 5px 5px 15px 5px;
+  background-color: #2e2d3096;
+  transition: all 0.5s;
+}
+.navbar #content a {
+  font-size: 15px;
+}
+.navbar #content img {
+  position: relative;
+  top: 9px;
+  right: 5px;
+}
+.navbar #content .ar {
+  right: 10px;
+}
+
+.burger {
+  display: none;
+  font-size: 30px;
+}
+
+.navbar .search-icon {
+  background: transparent;
+  color: white;
+  float: right;
+  border: none;
+  font-size: 25px;
+  margin: 2px 0 0 50px;
+}
+
+.navbar .search {
+  opacity: 0;
+  height: 0;
+  width: 0;
+  position: absolute;
+  background: white;
+  transition: opacity 0.5s;
+}
+.navbar .search input {
+  border: none;
+  height: 100%;
+  width: 89%;
+  text-align: left;
+  font-size: 20px;
+}
+.navbar .search input:focus {
+  outline: none;
+}
+.navbar .search button {
+  background-color: red;
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+}
+.navbar .msg {
+  position: absolute;
+  display: none;
+  background: black;
+  padding: 5px;
+  height: 80px;
+  width: 100%;
+}
+
+.navbar .msg h4 {
+  margin-top: 1rem;
+}
+
+/***********************************************************************/
+
+/* Links drop down styles */
+.links-dropdown {
+  display: none;
+  height: 360px;
+  width: 100%;
+  position: absolute;
+  top: 5rem;
+  right: 0rem;
+  background: #2e2d30;
+  border-top: 1px solid white;
+}
+
+.links-dropdown .home {
+  color: cornflowerblue;
+}
+
+.links-dropdown .home :hover {
+  color: cornflowerblue;
+}
+
+.links-dropdown a {
+  display: block;
+  width: 100%;
+  margin: 20px 40px 20px 0;
+  padding: 10px;
+  text-align: left;
+}
+
+.links-dropdown a:hover {
+  background-color: #0d2e71;
+}
+
+.links-dropdown .languages {
+  display: flex;
+  justify-content: flex-start;
+}
+.links-dropdown .languages div {
+  margin: 10px 20px;
+}
+.links-dropdown .languages .lang-link {
+  display: block;
+  margin: 0;
+  width: auto;
+}
+.links-dropdown .languages .lang-link:hover {
+  background: none;
+  color: red;
+  cursor: default;
+}
+
+.links-dropdown .languages div a {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.links-dropdown .languages div a:hover {
+  background: none;
+}
+/*****************************************************************/
+
+.section-a {
+  height: 500px;
+  background: url("https://2020.summersplash.at/wp-content/uploads/2020/01/Titelbild-2020.jpg");
+  background-position: top;
+  background-size: auto 500px;
+  color: white;
+  text-align: center;
+}
+
+.section-a div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.section-a div h1,
+h2 {
+  margin-top: 15px;
+}
+
+.section-a div h1 {
+  font-size: 40px;
+}
+
+/*************************************************************/
+/* Section b styles */
+.section-b {
+  height: 500px;
+  font-size: 25px;
+  margin-top: 0.5rem;
+  background-image: url("https://images.unsplash.com/photo-1562865654-09371ada5242?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1606&q=80");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section-b div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 100%;
+  height: 300px;
+}
+.section-b h1 {
+  color: lemonchiffon;
+  padding: 0 0 10px 0;
+}
+.section-b p {
+  color: gold;
+  margin: 0 30px;
+}
+
+/*******************************************************************/
+/* Section c styles */
+.section-c {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-top: 10px;
+  height: 1000px;
+  background: url("https://images.squarespace-cdn.com/content/v1/5e5d86704736573daa3ae2dd/1583192099684-FF8E7HQJMHH9X99ZDYIU/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/yvette-de-wit-8XLapfNMW04-unsplash.jpg?format=2500w");
+  background-size: auto auto;
+}
+
+.section-c .content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto auto auto;
+  column-gap: 20px;
+  row-gap: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid blue;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section-c .content h1 {
+  align-self: center;
+  grid-column: 1/4;
+  font-size: 35px;
+  color: #feefd5;
+}
+
+.section-c .content h2 {
+  width: 400px;
+  background-color: midnightblue;
+  border-bottom: 1px solid white;
+  margin: auto auto;
+}
+
+.section-c .content .beyond {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+.section-c .content .tyler {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.section-c .content .joys {
+  grid-row: 2/3;
+
+  grid-column: 3/4;
+}
+
+.section-c .content .stan {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+
+.section-c .content .swaggers {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+
+.section-c .content .natasha {
+  grid-row: 3/4;
+  grid-column: 3/4;
+}
+
+.section-c .content .melody {
+  grid-row: 4/5;
+  grid-column: 2/3;
+}
+
+/**********************************************************************************************/
+/* Section D styles */
+.section-d {
+  height: 900px !important;
+  margin-top: 0.7rem;
+  background-color: rgb(19, 25, 46);
+  background-image: url("https://cdn.suwalls.com/wallpapers/abstract/connected-dots-23452-2880x1800.jpg");
+}
+
+.headline {
+  width: 100%;
+  height: 100px;
+  font-size: 50px;
+  color: papayawhip;
+  grid-row: 1/2;
+  grid-column: 2/3;
+  place-self: center;
+}
+
+.price-table {
+  height: 700px;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto 550px;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
+}
+.price-table .heading {
+  height: 150px;
+  background-color: rgb(37, 39, 77);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  padding-top: 30px;
+}
+.heading h4 {
+  color: white;
+}
+.heading h1 {
+  margin: 10px 0;
+  font-size: 30px;
+  color: yellow;
+}
+
+.price-table > div {
+  background: white;
+  width: 350px;
+  height: 500px;
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.2), 0 20px 50px rgba(0, 0, 0, 0.5);
+  color: steelblue;
+}
+.basic,
+.standard,
+.premium {
+  grid-row: 2/3;
+}
+
+.standard {
+  transform: scale(1.1);
+}
+
+.section-d p {
+  margin: 30px 0 10px 0;
+  padding: 0 20px;
+}
+
+.section-d button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100px;
+  border-radius: 20px;
+  background: white;
+  border: 1px solid #080857;
+  color: #080857;
+}
+
+.section-d button:hover {
+  transition: color 1s;
+  color: white;
+  background: #0d2e71;
+}
+.price-table-hide {
+  display: none;
+}
+
+/* Section D:  buying Divs */
+.div-price {
+  display: none;
+}
+.standard-price {
+  display: none;
+}
+.premium-price {
+  display: none;
+}
+
+.all-info {
+  display: grid;
+  position: absolute;
+  width: 1000px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 100px auto 100px;
+  row-gap: 10px;
+  background: #f2f2f2;
+}
+#close-table {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  grid-row: 1/2;
+  grid-column: 2/-1;
+  justify-self: end;
+  background-color: midnightblue;
+  color: white;
+  margin: 5px 10px 0 0;
+  align-self: unset;
+  padding: 0;
+  border-radius: 0;
+}
+#close-table i {
+  margin-top: 5px;
+}
+
+.all-info h2 {
+  grid-row: 1/2;
+  grid-column: 1/-1;
+  justify-self: center;
+  align-self: center;
+  margin: 0;
+  color: crimson;
+  font-size: 30px;
+  background: #080857;
+  padding: 10px;
+}
+.all-info h3 {
+  margin-bottom: 10px;
+  color: cornflowerblue;
+  font-size: 20px;
+}
+
+.all-info .cards-icons {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+}
+.all-info .cards-icons div {
+  margin-left: 45px;
+  text-align: left;
+}
+.cards-icons label {
+  padding-left: 50px;
+  margin-top: 2px;
+}
+
+.all-info .cards-icons i {
+  font-size: 40px;
+}
+
+.all-info label {
+  width: 400px;
+  margin: auto;
+  text-align: left;
+}
+
+.all-info input {
+  width: 400px;
+  height: 40px;
+  margin: auto;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  text-align: left;
+  padding-left: 10px;
+}
+.all-info form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.all-info button {
+  grid-row: 3/-1;
+  grid-column: 1/-1;
+  align-self: center;
+  padding: 10px;
+  background-color: #080857;
+  color: white;
+  width: 90%;
+  height: 80px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.all-info .address-info label i {
+  margin-right: 5px;
+}
+
+/**********************************************************/
+
+/* Section E styles */
+
+.section-e {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background: #192635;
+  color: azure;
+  margin-top: 0.7rem;
+}
+.section-e .news,
+.img-footer {
+  margin: 30px 0;
+}
+
+.section-e span {
+  border-bottom: 1px solid crimson;
+  width: 100%;
+}
+.section-e h1 {
+  font-size: 40px;
+}
+.section-e p {
+  font-size: 30px;
+}
+
+.section-e input {
+  margin-top: 1rem;
+  border-radius: 5px;
+  height: 50px;
+  width: 300px;
+  text-align: left;
+  padding-left: 10px;
+}
+.section-e button {
+  padding: 15px;
+  border-radius: 5px;
+  color: #0d2e71;
+}
+.section-e .message {
+  display: inline-block;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  background-color: mediumseagreen;
+  padding: 10px;
+  border-radius: 3px;
+}
+.section-e button:hover {
+  background: #0d2e71;
+  color: white;
+  transition: color 1s;
+}
+
+.section-e .social {
+  display: flex;
+  align-items: flex-end;
+  height: 160px;
+}
+
+.section-e .fa {
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.section-e .fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

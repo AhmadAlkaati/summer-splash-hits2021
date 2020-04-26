@@ -1,0 +1,151 @@
+/* General styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.4;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: crimson;
+}
+
+/* navbar styles */
+nav {
+  height: 80px;
+  background: #2e2d30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav h1 {
+  color: crimson;
+  margin-right: 10px;
+}
+nav a {
+  font-size: 17px;
+}
+
+nav img {
+  width: 160px;
+}
+
+/* Container styles */
+.container {
+  background-image: url("https://cdn.shopify.com/s/files/1/0252/7225/4511/files/Canva_-_Silhouette_Of_People_Raising_Hands_During_Golden_Hour_1280x@2x.jpg?v=1574164677");
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 589px;
+  margin: 0.5rem 0;
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 450px;
+  width: 1000px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.container h3,
+h4 {
+  border-bottom: solid 1px crimson;
+  padding-bottom: 10px;
+}
+.container h1 {
+  color: gold;
+  margin-top: 10px;
+}
+/* Footer styles */
+.social {
+  background: #2e2d30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+.social .fa {
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Media queries */
+@media (max-width: 1000px) {
+  .container div {
+    height: 90%;
+    padding: 0 100px;
+  }
+  @media (max-width: 700px) {
+    .container {
+      height: 800px;
+    }
+    .container div {
+      padding: 0 50px;
+    }
+  }
+}
+@media (max-width: 650px) {
+  nav h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  nav h1 {
+    display: none;
+  }
+  .container {
+    height: 900px;
+  }
+  .container div {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    height: 1000px;
+  }
+}
+@media (max-width: 450px) {
+  .social {
+    height: 170px;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: auto auto;
+    column-gap: 5px;
+  }
+}

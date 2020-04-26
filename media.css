@@ -1,0 +1,459 @@
+@media (min-width: 2000px) {
+  .navbar h1 {
+    font-size: 35px !important;
+  }
+  .navbar .msg {
+    font-size: 35px;
+  }
+  .navbar .links {
+    justify-content: space-between;
+  }
+  .navbar a {
+    font-size: 25px !important;
+  }
+  .navbar button {
+    font-size: 25px !important;
+  }
+}
+
+@media (min-width: 1600px) {
+  /* Section B styles */
+  .section-b div p {
+    margin: 0 20rem;
+  }
+}
+
+@media (min-width: 2200px) {
+  /* Section B styles */
+  .section-b div p {
+    margin: 0 40rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  /*Section C styles*/
+  .section-c {
+    height: 1400px;
+  }
+  .section-c .content {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 100px;
+  }
+  .section-c .content .joys {
+    grid-row: 3/4;
+    grid-column: 2/3;
+  }
+  .section-c .content .swaggers {
+    grid-row: 4/5;
+    grid-column: 1/2;
+  }
+  .section-c .content .natasha {
+    grid-row: 4/5;
+    grid-column: 2/3;
+  }
+}
+
+@media (max-width: 1300px) {
+  /* Navbar styles */
+  .navbar .links {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    position: relative;
+    left: 3rem;
+    padding: 5px;
+  }
+  .burger:hover {
+    background-color: slategrey;
+    color: red;
+  }
+  .language-switcher {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* Section B styles */
+  .section-b div h1 {
+    margin: 0 50px;
+    font-size: 30px;
+  }
+  /*Section C styles*/
+  .section-c .content {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px;
+  }
+}
+
+@media (max-width: 1100px) {
+  /* Section D styles */
+  .section-d {
+    height: 1800px !important;
+  }
+  .section-d .price-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+  }
+
+  .price-table .headline {
+    padding-top: 30px;
+  }
+  .price-table .standard {
+    transform: unset;
+  }
+  .price-table .premium {
+    margin-bottom: 40px;
+  }
+  .price-table-hide {
+    display: none !important;
+  }
+  .section-d .price-table button {
+    margin: 0;
+  }
+
+  /* Section D buying divs styles */
+  .div-price-2 {
+    display: none;
+  }
+  .div-block {
+    display: block;
+    height: 1300px;
+    width: 600px;
+    position: absolute;
+    background: #f2f2f2;
+  }
+
+  #close-table {
+    position: relative;
+    left: 17rem;
+  }
+
+  #close-table i {
+    margin-top: 5px;
+  }
+  .address-info {
+    margin-top: 30px;
+  }
+  .address-info form {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+  }
+  .address-info form h3 {
+    margin-bottom: 10px;
+  }
+
+  .address-info form label {
+    margin: auto;
+  }
+  .address-info form label i {
+    margin-right: 5px;
+  }
+
+  .div-block input {
+    width: 400px;
+    height: 40px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  .billing-info {
+    margin-top: 40px;
+    height: 500px;
+  }
+  .billing-info form {
+    display: flex;
+    flex-direction: column;
+  }
+  .billing-info form .cards-icons {
+    margin: 10px 0;
+  }
+  .billing-info form .cards-icons label {
+    padding: 0;
+  }
+  .billing-info form input {
+    margin: 10px auto;
+  }
+  .section-d button {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* Section A styles */
+  .section-a div h1 {
+    font-size: 30px;
+  }
+  .section-a div h1,
+  h2 {
+    margin: 15px 30px 0 30px;
+  }
+  /* Section B styles */
+  .section-b div {
+    height: 350px;
+  }
+
+  .section-b div p {
+    margin-top: 10px;
+  }
+
+  /* Section C styles */
+  .section-c {
+    height: 2700px;
+  }
+  .section-c .content {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+    padding: 40px 0 0 0;
+  }
+  .section-c .content div {
+    margin: 20px 0;
+  }
+  .section-c .content h1 {
+    font-size: 25px;
+  }
+
+  /* Section E styles */
+  .section-e .news h1 {
+    font-size: 30px;
+  }
+  .section-e .news p {
+    font-size: 20px;
+  }
+
+  @media (max-width: 800px) {
+    /* Navbar styles */
+    .navbar {
+      margin: 0 30px;
+    }
+  }
+
+  @media (max-width: 750px) {
+    /* Section D styles */
+    .section-d {
+      height: 2000px;
+    }
+
+    .price-table .headline {
+      font-size: 35px;
+      padding-top: 40px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    /* General styles */
+
+    /* Navbar styles*/
+    .navbar {
+      justify-content: flex-end;
+      margin: 0 20px;
+    }
+    .navbar .summer-splash {
+      margin: auto auto;
+      justify-content: flex-end;
+    }
+    .navbar .home {
+      display: none;
+    }
+    .navbar .search {
+      left: 1px;
+    }
+    .navbar .msg {
+      left: 1px;
+    }
+    .navbar .msg h4 {
+      margin: 1rem 1rem 0 1rem;
+    }
+    /* Section B styles */
+    .section-b div {
+      height: 100%;
+    }
+  }
+
+  @media (max-width: 650px) {
+    /*General styles*/
+    * {
+      overflow: visible;
+    }
+    /*Buying divs styles*/
+    .div-block {
+      width: 400px;
+    }
+    .div-block input {
+      width: 300px;
+    }
+    #close-table {
+      left: 11rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    /* link dropdown styles */
+    .links-dropdown {
+      height: 350px;
+    }
+    .links-dropdown .home {
+      margin-top: 10px;
+    }
+    .links-dropdown a {
+      margin: 0;
+    }
+    .links-dropdown .languages {
+      display: grid;
+      grid-template-columns: repeat(4, auto);
+    }
+    .links-dropdown .languages .france {
+      grid-column: 2/3;
+    }
+
+    .links-dropdown .languages .arabic {
+      grid-column: 3/4;
+    }
+    /* Section A styles */
+    .section-a div {
+      height: 380px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    /* Navbar styles */
+    .navbar .summer-splash {
+      justify-content: center;
+    }
+    .navbar .summer-splash h1 {
+      display: none;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .section-a div h1 {
+      font-size: 25px;
+    }
+    .section-a h2 {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    /* Navbar styles */
+    .navbar .msg h4 {
+      margin: 0rem 1rem 0 1rem;
+    }
+    /* Links dropdown styles */
+    .links-dropdown .languages div {
+      margin: 10px 10px;
+    }
+    .links-dropdown .languages .lang-link {
+      padding: 10px 0 0 8px;
+    }
+    .links-dropdown .languages .lang-link i {
+      display: none;
+    }
+    /*Section-b styles*/
+    .section-b div h1 {
+      font-size: 25px;
+    }
+    .section-b div p {
+      font-size: 20px;
+    }
+    /* Section C styles */
+    .section-c {
+      height: 2200px;
+    }
+
+    .section-c .content div {
+      margin: 20px 0;
+    }
+    .section-c .content h1 {
+      font-size: 25px;
+    }
+    .section-c img {
+      width: 300px;
+    }
+    .section-c .content h2 {
+      width: 300px;
+    }
+
+    /*Buying divs styles*/
+    .div-block {
+      width: 350px;
+    }
+    .div-block input {
+      width: 300px;
+    }
+    #close-table {
+      left: 9rem;
+    }
+
+    /* Section E styles */
+    .section-e {
+      height: 700px;
+    }
+    .section-e .news {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .section-e .news h1 {
+      font-size: 20px;
+    }
+    .section-e .news p {
+      font-size: 17px;
+    }
+    .section-e input {
+      margin-bottom: 20px;
+    }
+    .section-e .social {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto auto;
+    }
+  }
+
+  @media (max-width: 370px) {
+    /* Section B styles*/
+    .section-b div h1 {
+      margin: 0 20px;
+    }
+    .section-b div p {
+      margin: 10px 20px;
+    }
+
+    /* Section D styling */
+    .section-d .price-table > div {
+      width: 310px;
+      height: 520px;
+    }
+
+    /*Buying divs styles*/
+    .div-block {
+      width: 320px;
+    }
+    .div-block input {
+      width: 300px;
+    }
+    #close-table {
+      left: 9rem;
+    }
+  }
+  @media (max-width: 340px) {
+    /* Links dropdown styles */
+    .links-dropdown .languages .lang-link {
+      padding: 10px 0 0 0;
+    }
+    /* Section C styles */
+    .section-c .content {
+      width: 100%;
+    }
+  }
+}
