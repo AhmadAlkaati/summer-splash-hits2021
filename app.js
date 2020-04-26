@@ -155,11 +155,11 @@ function subscribeBtn() {
     error.appendChild(textError);
     news.appendChild(error);
     error.style.width = "300px";
-    error.style.margin = "15px  auto";
+    error.style.margin = "5px  auto";
     error.style.backgroundColor = "red";
     error.style.borderRadius = "5px";
   } else {
-    var success = document.createElement("h2");
+    var success = document.createElement("h3");
     success.id = "successmsg";
     var text = document.createTextNode(
       "Thanks For Subscribing To Our NewsLetter!"
@@ -167,7 +167,7 @@ function subscribeBtn() {
     success.appendChild(text);
     news.appendChild(success);
     success.style.width = "300px";
-    success.style.margin = "15px  auto";
+    success.style.margin = "5px  auto";
     success.style.backgroundColor = "mediumseagreen";
     success.style.borderRadius = "5px";
   }

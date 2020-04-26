@@ -349,6 +349,9 @@
     .navbar .msg h4 {
       margin: 0rem 1rem 0 1rem;
     }
+    .navbar .search input {
+      width: 80%;
+    }
     /* Links dropdown styles */
     .links-dropdown .languages div {
       margin: 10px 10px;
@@ -397,12 +400,13 @@
 
     /* Section E styles */
     .section-e {
-      height: 700px;
+      height: 850px;
     }
     .section-e .news {
       display: flex;
       flex-direction: column;
       align-items: center;
+      height: 300px;
     }
     .section-e .news h1 {
       font-size: 20px;
@@ -416,7 +420,13 @@
     .section-e .social {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: auto auto;
+      grid-template-rows: 70px 70px;
+      margin-top: 30px;
+      height: 180px;
+    }
+    .section-e .social .fa.fa-youtube,
+    .fa.fa-instagram {
+      align-self: start;
     }
   }
 
