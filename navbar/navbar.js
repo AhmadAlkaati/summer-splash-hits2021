@@ -1,9 +1,9 @@
 document.write(`   <nav>
 <div class="navbar">
   <h1>
-    <a href="../homepage/index.html" class="title"> Summer Splash Hits 2021</a>
+    <a href="../index.html" class="title"> Summer Splash Hits 2021</a>
   </h1>
-  <a href="../homepage/index.html">
+  <a href="../index.html">
   <img class="logo" src="../images/logo.png" alt=""
 /></a>
   <div class="links">

@@ -18,7 +18,7 @@ function loginValidation(e) {
     password.after(msg);
   } else {
     sessionStorage.setItem('username', username.value);
-    window.open('../homepage/index.html', '_self');
+    window.open('../index.html', '_self');
   }
   /// clear inputs and error msg //
   setTimeout(() => {
