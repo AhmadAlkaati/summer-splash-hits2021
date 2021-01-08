@@ -1,0 +1,121 @@
+@import '../navbar/navbar.css';
+@import '../footer/footer.css';
+@import '../reset.css/reset.css';
+
+.navbar .logout-btn {
+  display: none;
+}
+
+.navbar .login-btn {
+  display: none;
+}
+
+/* Section styles */
+section {
+  height: 600px;
+  margin-top: 0.1rem;
+  background: url('../images/login.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+  text-align: left;
+  border: 2px solid darkslateblue;
+}
+
+section form * {
+  margin: 0.3rem 0;
+}
+
+form h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+form .fas {
+  font-size: 5rem;
+  color: aliceblue;
+}
+form input {
+  padding: 10px;
+  width: 400px;
+}
+form .go-to-sign-up {
+  color: crimson;
+  background: transparent;
+  font-size: 15px;
+}
+form .go-to-login {
+  color: crimson;
+  background: transparent;
+  font-size: 15px;
+}
+form button {
+  font-size: 20px;
+  font-weight: bold;
+  width: 400px;
+  padding: 10px;
+  background-color: #0e1742;
+  font-weight: 400;
+  color: white;
+}
+
+form .forgot {
+  color: crimson;
+}
+.error-msg {
+  color: red;
+  text-align: left !important;
+  width: 400px;
+  font-size: 13px;
+}
+
+.sign-up-form {
+  display: none;
+}
+
+/* Media Queries */
+
+@media (max-width: 1200px) {
+  section form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  section form {
+    width: 100%;
+    border: none;
+  }
+  form h1 {
+    font-size: 2rem;
+  }
+  form input {
+    padding: 10px;
+    width: 250px;
+  }
+  form button {
+    width: 250px;
+  }
+  form .fas {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 400px) {
+  form h1 {
+    font-size: 1.5rem;
+  }
+  form .fas {
+    font-size: 3rem;
+  }
+}

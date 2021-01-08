@@ -1,0 +1,147 @@
+/* Media Queries */
+
+@media (max-width: 1500px) {
+  /*Section B styles*/
+  .section-b {
+    height: 1400px;
+  }
+  .section-b .container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 100px;
+  }
+  .section-b .container .joys {
+    grid-row: 3/4;
+    grid-column: 2/3;
+  }
+  .section-b .container .swaggers {
+    grid-row: 4/5;
+    grid-column: 1/2;
+  }
+  .section-b .container .natasha {
+    grid-row: 4/5;
+    grid-column: 2/3;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* Section A styles */
+
+  .section-a .container {
+    padding: 0 3rem;
+  }
+  .section-a .container a {
+    padding: 0;
+  }
+
+  /* Section B styles */
+  .section-b {
+    height: 2700px;
+  }
+  .section-b .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    padding: 40px 0;
+  }
+  .section-b .container div {
+    margin: 20px 0;
+  }
+  .section-b .container h1 {
+    font-size: 25px;
+    align-self: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section-a {
+    height: 450px;
+  }
+  .section-a .container h1 {
+    font-size: 20px;
+  }
+  .section-a .container h2 {
+    font-size: 20px;
+  }
+  .section-a .container h3 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .intro {
+    font-size: 25px;
+  }
+  .intro-text {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .intro {
+    font-size: 20px;
+  }
+  /* Section A styles */
+  .section-a {
+    height: 450px;
+  }
+  .section-a .container * {
+    margin: 0;
+    padding: 10px;
+  }
+  .section-a .containerh1 {
+    font-size: 17px;
+  }
+  .section-a .container h2 {
+    font-size: 15px;
+  }
+  .section-a .container h3 {
+    font-size: 13px;
+  }
+
+  .section-b {
+    height: 2200px;
+  }
+  .section-b .container h1 {
+    font-size: 18px;
+  }
+  .section-b .container div {
+    width: 300px;
+  }
+  .section-b .container div img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  .section-a div h1 {
+    font-size: 25px;
+  }
+  .section-a h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .intro {
+    font-size: 17px;
+  }
+  /*section-a styles*/
+  .section-a .container {
+    padding: 0 1rem;
+  }
+  /* Section B styles */
+  .section-b {
+    height: 2000px;
+  }
+
+  .section-b .container div {
+    width: 250px;
+  }
+
+  .section-b .container div img {
+    width: 250px;
+  }
+}

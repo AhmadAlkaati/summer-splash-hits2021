@@ -1,0 +1,161 @@
+@import '../reset.css/reset.css';
+@import '../navbar/navbar.css';
+@import '../footer/footer.css';
+/* General styles */
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Intro Styles  */
+.slider {
+  background: #2c2b2b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+.intro {
+  background: #0c131a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+.hide {
+  overflow: hidden;
+}
+.hide span {
+  display: inline-block;
+  transform: translateY(200%);
+}
+
+/* Section a */
+.section-a {
+  height: 500px;
+  color: #feefd5;
+  background: url('../images/section-a.jpg');
+  background-position: top;
+  background-size: cover;
+  padding-top: 5rem;
+}
+
+.section-a .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.container h1 {
+  font-size: 30px;
+}
+
+.container a {
+  color: #d0d3d4;
+}
+.container a:hover {
+  transition: color 0.5s;
+  color: white;
+}
+
+/* Section b styles */
+.section-b {
+  display: flex;
+  align-items: center;
+  margin-top: 0.1rem;
+  height: 1000px;
+  background: #0c131a;
+}
+
+.section-b .container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto auto auto;
+  justify-items: center;
+  column-gap: 20px;
+  row-gap: 20px;
+  margin: 0 auto;
+  padding: 50px;
+  color: #f0ffda;
+}
+.section-b .container div {
+  width: 400px;
+}
+.section-b .container h1 {
+  align-self: start;
+  grid-column: 1/4;
+  font-size: 35px;
+}
+
+.section-b .container h2 {
+  background-color: #187db3;
+  margin: auto auto;
+}
+
+.section-b .container .beyond {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+.container .tyler {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+.container .joys {
+  grid-row: 2/3;
+
+  grid-column: 3/4;
+}
+
+.container .stan {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+
+.container .swaggers {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+
+.container .natasha {
+  grid-row: 3/4;
+  grid-column: 3/4;
+}
+
+.container .melody {
+  grid-row: 4/5;
+  grid-column: 2/3;
+}
+
+@keyframes anim {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animated {
+  opacity: 0;
+}

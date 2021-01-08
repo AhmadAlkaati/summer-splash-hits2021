@@ -1,0 +1,145 @@
+.all-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 100px auto 100px;
+  row-gap: 10px;
+  padding: 0 5rem;
+  background: #464965;
+  color: white;
+  padding: 7rem 2rem;
+}
+.all-info .address-info {
+  justify-self: end;
+}
+.all-info .billing-info {
+  justify-self: center;
+}
+
+.all-info h2 {
+  grid-row: 1/2;
+  grid-column: 1/-1;
+  justify-self: center;
+  align-self: center;
+  margin: 0;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.all-info-basic h2 {
+  color: #01b089;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+}
+.all-info-standard h2 {
+  color: #189deb;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+}
+
+.all-info-premium h2 {
+  color: #eb5a3d;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+}
+.all-info h3 {
+  margin-bottom: 10px;
+  color: rgb(245, 235, 235);
+  font-weight: 400;
+}
+
+.all-info select {
+  width: 400px;
+  height: 40px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.all-info label {
+  width: 400px;
+  margin: auto;
+  text-align: left;
+}
+
+.all-info input {
+  width: 400px;
+  height: 40px;
+  margin: auto;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  text-align: left;
+  padding-left: 10px;
+}
+.all-info form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.all-info button {
+  grid-column: 1/3;
+  padding: 10px;
+  width: 200px;
+  margin: 2rem auto;
+  color: white;
+  height: 80px;
+  font-size: 20px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+}
+
+.all-info button:hover {
+  background-color: rgba(100, 175, 237, 0.9);
+}
+.all-info .address-info label i {
+  margin-right: 5px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1000px) {
+  .all-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .all-info h3 {
+    margin: 15px 0 10px 0;
+  }
+}
+@media (max-width: 600px) {
+  .all-info h2 {
+    font-size: 22px;
+    padding: 10px;
+  }
+  .all-info input {
+    width: 300px;
+  }
+  .all-info label {
+    width: 300px;
+  }
+  .all-info select {
+    width: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  .all-info h2 {
+    padding: 10px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .all-info input {
+    width: 250px;
+  }
+  .all-info label {
+    width: 250px;
+  }
+  .all-info select {
+    width: 250px;
+  }
+}

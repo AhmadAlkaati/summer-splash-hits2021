@@ -1,0 +1,8 @@
+@import '../reset.css/reset.css';
+@import '../buying/buying.css';
+@import '../navbar/navbar.css';
+@import '../footer/footer.css';
+
+section button {
+  background-color: #189deb !important;
+}

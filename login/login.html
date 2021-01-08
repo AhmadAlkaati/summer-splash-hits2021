@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/fb508a679b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="login.css" />
+    <script src="../navbar/navbar.js"></script>
+
+    <title>Login</title>
+  </head>
+  <body>
+    <section>
+      <form class="login-form">
+        <h1>user login</h1>
+        <i class="fas fa-sign-in-alt"></i>
+        <input type="text" placeholder="username" />
+        <input type="password" placeholder="password" />
+        <button class="go-to-sign-up">No account? create one now!</button>
+        <p><a href="#" class="forgot">Forgot your password?</a></p>
+        <button type="button" class="login--btn">Login</button>
+      </form>
+
+      <form class="sign-up-form">
+        <h1>create new account</h1>
+        <i class="fas fa-user-plus"></i>
+        <input type="text" placeholder="username" />
+        <input type="email" placeholder="Email Address" />
+        <input type="password" placeholder="password" />
+        <button class="go-to-login">Have an account? login now!</button>
+        <button class="sign-up-btn">Create account</button>
+      </form>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="../animation-on-load/animation-on-load.js"></script>
+    <script src="../footer/footer.js"></script>
+    <script src="login.js"></script>
+  </body>
+</html>

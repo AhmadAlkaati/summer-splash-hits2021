@@ -1,0 +1,167 @@
+@import '../navbar/navbar.css';
+@import '../footer/footer.css';
+@import ' ../reset.css/reset.css';
+/* Section Styles */
+section {
+  margin-top: 0.1rem;
+  background-color: #0c131a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7rem 2rem;
+  background: #464965;
+}
+
+.container {
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 1rem;
+  height: 100%;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+  font-size: 35px;
+  color: white;
+}
+header h2 {
+  color: grey;
+  font-size: 30px;
+}
+
+.container div {
+  width: 250px;
+  padding: 20px 0;
+}
+
+.basic-ticket .header {
+  background: #01b089;
+}
+
+.standard-ticket .header {
+  background: #42c1f0;
+}
+.premium-ticket .header {
+  background: #eb5a3d;
+}
+
+.header h2 {
+  color: white;
+}
+.header h1 {
+  color: lavender;
+}
+.text {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 250px;
+}
+.text button {
+  padding: 10px;
+  border-radius: 3px;
+  width: 40%;
+  margin: auto;
+}
+.text button a {
+  color: white;
+}
+.basic-ticket .text button {
+  background-color: #01b089;
+}
+.standard-ticket .text button {
+  background-color: #42c1f0;
+}
+.premium-ticket .text button {
+  background-color: #eb5a3d;
+}
+
+/* Msg styles */
+.msg {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.msg h1 {
+  font-size: 50px;
+  color: crimson;
+}
+.msg h2 {
+  font-size: 30px;
+  color: rgb(233, 221, 221);
+}
+.msg h3 {
+  font-size: 25px;
+}
+.msg i {
+  color: rgba(214, 200, 200);
+  font-size: 50px;
+}
+.msg a {
+  color: rgb(214, 200, 200);
+}
+
+@media (max-width: 1500px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1000px) {
+  .msg {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .msg {
+    width: 90%;
+    height: 400px;
+  }
+  .msg h1,
+  i {
+    font-size: 35px;
+  }
+  .msg h2 {
+    font-size: 25px;
+  }
+  .msg h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  section {
+    height: 1700px;
+    padding: 7rem 0.5rem 5rem 0.5rem;
+  }
+  .container {
+    width: 95%;
+  }
+  header {
+    margin: 0;
+  }
+  header h1 {
+    font-size: 30px;
+  }
+  header h2 {
+    font-size: 25px;
+  }
+  .msg {
+    width: 95%;
+  }
+}
