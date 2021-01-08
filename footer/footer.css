@@ -65,4 +65,8 @@ footer {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
   }
+
+  footer .copyrights p {
+    font-size: 10px;
+  }
 }

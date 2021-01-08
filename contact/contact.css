@@ -103,6 +103,12 @@ section::after {
 
 /* Media queries */
 
+@media (max-width: 1200px) {
+  section::after {
+    background-position: center;
+  }
+}
+
 @media (max-width: 1000px) {
   .container {
     display: flex;
@@ -125,6 +131,9 @@ section::after {
     width: 100%;
     height: 100%;
     padding: 6rem 1rem;
+  }
+  .container div * {
+    padding: 7px;
   }
   .container .intro h3 span {
     display: block;

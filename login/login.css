@@ -103,11 +103,15 @@ form .forgot {
     padding: 10px;
     width: 250px;
   }
+
   form button {
     width: 250px;
   }
   form .fas {
     font-size: 4rem;
+  }
+  .error-msg {
+    width: 250px;
   }
 }
 

@@ -26,3 +26,34 @@ tl.fromTo(
   { opacity: 1, duration: 0.5 },
   '-=1'
 );
+
+/* Side Bar */
+function sideBar() {
+  const burger = document.querySelector('.burger');
+  const links = document.querySelector('.links');
+  burger.addEventListener('click', showLinks);
+  function showLinks(e) {
+    links.classList.toggle('show-links');
+    e.preventDefault();
+  }
+}
+
+sideBar();
+
+/* Logging out and removing data from session storage */
+let usernameStorage = sessionStorage.getItem('username');
+let loginBtn = document.querySelector('.login-btn');
+let logoutBtn = document.querySelector('.logout-btn');
+let username = document.querySelector('.username');
+if (usernameStorage) {
+  logoutBtn.style.display = 'block';
+  username.innerHTML = usernameStorage + ' <i class="fas fa-user"></i>';
+  username.style.display = 'block';
+  loginBtn.style.display = 'none';
+}
+
+logoutBtn.onclick = (e) => {
+  e.preventDefault();
+  sessionStorage.removeItem('username');
+  window.open('index.html', '_self');
+};

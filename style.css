@@ -1,6 +1,6 @@
-@import '../reset.css/reset.css';
-@import '../navbar/navbar.css';
-@import '../footer/footer.css';
+@import './reset.css/reset.css';
+@import './navbar/navbar.css';
+@import './footer/footer.css';
 /* General styles */
 .section {
   display: flex;
@@ -46,7 +46,7 @@
 .section-a {
   height: 500px;
   color: #feefd5;
-  background: url('../images/section-a.jpg');
+  background: url('./images/section-a.jpg');
   background-position: top;
   background-size: cover;
   padding-top: 5rem;

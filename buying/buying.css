@@ -123,6 +123,10 @@
   .all-info select {
     width: 300px;
   }
+  .all-info button {
+    width: 150px;
+    height: 70px;
+  }
 }
 
 @media (max-width: 500px) {

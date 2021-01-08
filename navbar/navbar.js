@@ -8,7 +8,7 @@ document.write(`   <nav>
 /></a>
   <div class="links">
   <a href="../tickets/tickets.html">
-    <i class="fas fa-ticket-alt"></i> Tickets</a
+    <i class="fas fa-ticket-alt"></i>Tickets</a
   >
   <a href="../event-dates/event-dates.html"
     ><i class="fas fa-calendar-week"></i>Events Dates</a

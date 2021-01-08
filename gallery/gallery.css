@@ -99,12 +99,20 @@ button#prev {
 /* Media queries */
 @media (max-width: 500px) {
   .slide .content {
-    bottom: 0px;
+    bottom: -50px;
     left: 0;
     width: 100%;
+    padding: 20px;
   }
 
   .slide.slide.current .content {
     transform: translateY(-50px);
+  }
+
+  .slide .content h1 {
+    font-size: 20px;
+  }
+  .slide .content p {
+    font-size: 15px;
   }
 }
