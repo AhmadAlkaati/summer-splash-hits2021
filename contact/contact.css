@@ -144,6 +144,9 @@ section::after {
 }
 
 @media (max-width: 500px) {
+  section {
+    height: 1100px;
+  }
   .container h1 {
     font-size: 20px;
   }

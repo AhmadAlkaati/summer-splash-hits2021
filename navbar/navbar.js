@@ -6,7 +6,7 @@ document.write(`   <nav>
   <a href="../index.html">
   <img class="logo" src="../images/logo.png" alt=""
 /></a>
-  <div class="links">
+  <div class="navbar-links">
   <a href="../tickets/tickets.html">
     <i class="fas fa-ticket-alt"></i>Tickets</a
   >
@@ -54,12 +54,15 @@ navbarLinks.forEach((link) => {
 /* Side Bar */
 function sideBar() {
   const burger = document.querySelector('.burger');
-  const links = document.querySelector('.links');
-  burger.addEventListener('click', showLinks);
-  function showLinks(e) {
-    links.classList.toggle('show-links');
+  const navbarLinks = document.querySelector('.navbar-links');
+  const links = document.querySelectorAll('.navbar-links a');
+  burger.addEventListener('click', showNavbar);
+  function showNavbar(e) {
+    navbarLinks.classList.toggle('show-navbar');
+    links.forEach((link) => {
+      link.classList.toggle('show-links');
+    });
     e.preventDefault();
   }
 }
-
 sideBar();

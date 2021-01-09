@@ -45,7 +45,7 @@
 /* Section a */
 .section-a {
   height: 500px;
-  color: #feefd5;
+  color: #ece8e2;
   background: url('./images/section-a.jpg');
   background-position: top;
   background-size: cover;
@@ -94,7 +94,7 @@
   row-gap: 20px;
   margin: 0 auto;
   padding: 50px;
-  color: #f0ffda;
+  color: #ece8e2;
 }
 .section-b .container div {
   width: 400px;

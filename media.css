@@ -35,7 +35,7 @@
 
   /* Section B styles */
   .section-b {
-    height: 2700px;
+    height: 2600px;
   }
   .section-b .container {
     display: flex;
@@ -102,7 +102,7 @@
   }
 
   .section-b {
-    height: 2200px;
+    height: 2100px;
   }
   .section-b .container h1 {
     font-size: 18px;
@@ -134,7 +134,7 @@
   }
   /* Section B styles */
   .section-b {
-    height: 2000px;
+    height: 1900px;
   }
 
   .section-b .container div {
