@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +6,12 @@
   outline: none;
   border: none;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
   line-height: 1.7;
 }
 
+body {
+  font-family: 'Raleway', sans-serif;
+}
 button {
   background-color: transparent;
   cursor: pointer;

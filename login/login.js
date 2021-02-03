@@ -18,8 +18,10 @@ function loginValidation(e) {
     password.after(msg);
   } else {
     sessionStorage.setItem('username', username.value);
-    window.open('../index.html', '_self');
+    // go to previous page//
+    history.go(-1);
   }
+  console.log(location.href);
   /// clear inputs and error msg //
   setTimeout(() => {
     const inputs = document.querySelectorAll('input');

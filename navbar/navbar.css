@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap');
+
 /* Navbar styles */
 nav {
   height: 80px;
@@ -9,6 +11,8 @@ nav {
   top: 0;
   left: 0;
   z-index: 2;
+  font-family: inherit;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar {
@@ -62,11 +66,12 @@ nav {
 }
 
 .navbar-links a {
-  font-size: 25px;
+  font-size: 18px;
   width: 300px;
   text-align: left;
   opacity: 0;
   letter-spacing: 2px;
+  padding-left: 5rem;
 }
 
 .navbar-links.show-navbar {

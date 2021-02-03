@@ -63,6 +63,7 @@ section::after {
 
 .contact h3 {
   display: inline;
+  font-weight: 500;
 }
 .contact i {
   font-size: 20px;
@@ -76,6 +77,10 @@ section::after {
   justify-content: space-around;
   align-items: center;
   height: 400px;
+}
+
+.form h2 {
+  font-weight: 500;
 }
 .form input {
   background: transparent;

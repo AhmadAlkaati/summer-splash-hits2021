@@ -12,5 +12,6 @@ if (usernameStorage) {
 logoutBtn.onclick = (e) => {
   e.preventDefault();
   sessionStorage.removeItem('username');
-  window.open('../index.html', '_self');
+  // stay in current page //
+  window.open(location, '_self');
 };

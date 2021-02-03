@@ -1,28 +1,5 @@
 /* Media Queries */
 
-@media (max-width: 1500px) {
-  /*Section B styles*/
-  .section-b {
-    height: 1400px;
-  }
-  .section-b .container {
-    grid-template-columns: repeat(2, 1fr);
-    padding: 40px 100px;
-  }
-  .section-b .container .joys {
-    grid-row: 3/4;
-    grid-column: 2/3;
-  }
-  .section-b .container .swaggers {
-    grid-row: 4/5;
-    grid-column: 1/2;
-  }
-  .section-b .container .natasha {
-    grid-row: 4/5;
-    grid-column: 2/3;
-  }
-}
-
 @media (max-width: 1200px) {
   /* Section A styles */
 
