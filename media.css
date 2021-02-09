@@ -1,5 +1,11 @@
 /* Media Queries */
 
+@media (min-width: 1600px) {
+  .section-b .container {
+    width: 80%;
+  }
+}
+
 @media (max-width: 1200px) {
   /* Section A styles */
 
