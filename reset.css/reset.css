@@ -9,7 +9,10 @@
   line-height: 1.7;
 }
 
-body {
+body,
+input,
+textarea,
+button {
   font-family: 'Sriracha', cursive;
 }
 button {

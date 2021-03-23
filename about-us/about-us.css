@@ -10,7 +10,7 @@ section {
   align-items: center;
   height: 700px;
   margin: 0.1rem 0;
-  padding-top: 5rem;
+  padding-top: 3rem;
   position: relative;
 }
 
@@ -60,7 +60,7 @@ h4 {
   margin-top: 10px;
 }
 .container a {
-  color: crimson;
+  color: #187db3;
   font-weight: 400;
 }
 .container a:hover {
@@ -78,11 +78,9 @@ h4 {
   .container {
     padding: 10px;
   }
-  .container h1 {
-    font-size: 22px;
-  }
+
   .container h2 {
-    font-size: 19px;
+    font-size: 25px;
   }
 
   .container h3 {
@@ -95,11 +93,12 @@ h4 {
 
 @media (max-width: 500px) {
   section {
-    height: 900px;
+    height: 750px;
   }
   .container {
     height: 100%;
     width: 100%;
     padding: 20px;
+    justify-content: center;
   }
 }

@@ -18,7 +18,7 @@
 
   /* Section B styles */
   .section-b {
-    height: 2600px;
+    height: 2100px;
   }
   .section-b .container {
     display: flex;
@@ -32,25 +32,9 @@
   .section-b .container div {
     margin: 20px 0;
   }
-  .section-b .container h1 {
-    font-size: 25px;
-    align-self: center;
-  }
 }
 
 @media (max-width: 1000px) {
-  .section-a {
-    height: 450px;
-  }
-  .section-a .container h1 {
-    font-size: 20px;
-  }
-  .section-a .container h2 {
-    font-size: 20px;
-  }
-  .section-a .container h3 {
-    font-size: 15px;
-  }
 }
 
 @media (max-width: 800px) {
@@ -67,28 +51,14 @@
     font-size: 20px;
   }
   /* Section A styles */
-  .section-a {
-    height: 450px;
-  }
+
   .section-a .container * {
     margin: 0;
     padding: 10px;
   }
-  .section-a .containerh1 {
-    font-size: 17px;
-  }
-  .section-a .container h2 {
-    font-size: 15px;
-  }
-  .section-a .container h3 {
-    font-size: 13px;
-  }
 
-  .section-b {
-    height: 2100px;
-  }
   .section-b .container h1 {
-    font-size: 18px;
+    font-size: 30px;
   }
   .section-b .container div {
     width: 300px;
@@ -99,11 +69,8 @@
 }
 
 @media (max-width: 500px) {
-  .section-a div h1 {
-    font-size: 25px;
-  }
-  .section-a h2 {
-    font-size: 20px;
+  .section-a .container h1 {
+    font-size: 35px;
   }
 }
 

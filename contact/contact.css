@@ -64,10 +64,11 @@ section::after {
 .contact h3 {
   display: inline;
   font-weight: 500;
+  padding: 0 !important;
 }
 .contact i {
   font-size: 20px;
-  margin-right: 10px;
+  padding: 0 !important;
 }
 .container .form {
   grid-row: 3/4;
@@ -118,7 +119,6 @@ section::after {
   .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
   }
   .container .intro {
     margin-top: 20px;
@@ -138,7 +138,7 @@ section::after {
     padding: 6rem 1rem;
   }
   .container div * {
-    padding: 7px;
+    padding: 5px;
   }
   .container .intro h3 span {
     display: block;
@@ -150,7 +150,7 @@ section::after {
 
 @media (max-width: 500px) {
   section {
-    height: 1100px;
+    height: 900px;
   }
   .container h1 {
     font-size: 20px;

@@ -2,16 +2,13 @@
 nav {
   height: 60px;
   width: 100%;
-  background: #040f16;
+  background: #0c131a;
   display: flex;
   justify-content: center;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 2;
-  font-family: inherit;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Sriracha', cursive;
 }
 
 .navbar {
@@ -119,8 +116,7 @@ nav {
     margin: 0;
   }
 
-  .navbar .logout-btn,
-  .login-btn {
+  .navbar button {
     font-size: 15px;
   }
   .navbar .username {
@@ -140,10 +136,9 @@ nav {
     padding: 0 5px;
   }
   .navbar .logo {
-    width: 100px;
+    width: 80px;
   }
-  .navbar .logout-btn,
-  .login-btn {
+  .navbar button {
     font-size: 12px;
   }
   .navbar .username {
